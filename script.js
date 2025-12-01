@@ -49,3 +49,9 @@ function convertToFahrenheit(celsius) {
         `${celsius}°C is ${fahrenheit}°F`;
 }
 // ===== EVENT LISTENERS THAT CALLS FUNCTIONS ===== //
+
+document.getElementById("btnAdd").onclick = () => addNumbers(5, 7);
+document.getElementById("btnGreet").onclick = () => greetUser("Madison");
+document.getElementById("btnArea").onclick = () => calculateArea(10, 6);
+document.getElementById("btnColor").onclick = () => favoriteColor("Blue");
+document.getElementById("btnFahrenheit").onclick = () => convertToFahrenheit(25);
