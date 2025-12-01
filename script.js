@@ -22,5 +22,30 @@ function showRep() {
 }
 
 // ===== FUNCTIONS WITH PARAMETERS ===== //
+function addNumbers(x, y) {
+    document.getElementById("output2").textContent =
+        `The sum of ${x} + ${y} = ${x + y}`;
+}
 
+function greetUser(name) {
+    document.getElementById("output2").textContent =
+        `Hello, ${name}! Welcome to the world of JavaScript.`;
+}
+
+function calculateArea(width, height) {
+    const area = width * height;
+    document.getElementById("output2").textContent =
+        `The area of a ${width}x${height} rectangle is ${area} square units.`;
+}
+
+function favoriteColor(color) {
+    document.getElementById("output2").textContent =
+        `Your favorite color is ${color}! `;
+}
+
+function convertToFahrenheit(celsius) {
+    const fahrenheit = (celsius * 9/5) + 32;
+    document.getElementById("output2").textContent =
+        `${celsius}°C is ${fahrenheit}°F`;
+}
 // ===== EVENT LISTENERS THAT CALLS FUNCTIONS ===== //
