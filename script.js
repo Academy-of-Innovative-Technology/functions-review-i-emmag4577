@@ -67,4 +67,4 @@ window.onload = function () {
     document.getElementById("btnGreet").onclick = () => greetUser("Alex");
     document.getElementById("btnArea").onclick = () => calculateArea(10, 6);
     document.getElementById("btnColor").onclick = () => favoriteColor("Blue");
-    document.getElementById("btnFahrenheit").onclick = () => convertToFahrenheit(25);
+    document.getElementById("btnFahrenheit").onclick = () => convertToFahrenheit(25);}
